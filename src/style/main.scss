@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+$roboto: 'Roboto', sans-serif;   
+$open-sans: 'Open Sans', sans-serif;
+
+$clr-primary: #b7dbef;
+$clr-secondary: #d9d7d7;
+
+$clr-txt-primary: #273338;
+$clr-txt-secondary: #838487;
+$clr-txt-alternative: #0d4b81;
+
+body {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-family: $roboto !important;
+    color: $clr-txt-primary;
+}
+
+.x-small, x-small {
+    font-size: .775em;
+}
+
+.bg-light {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    transition: transform 250ms;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 600;
+    color: white;
+    transform: translateY(0px);
+}

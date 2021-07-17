@@ -1,0 +1,43 @@
+{
+  "name": "jmrg-resume",
+  "version": "1.0.0",
+  "description": "Mauricio Reina Resume",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config config/webpack.config.js --mode=development --port 8083 --open",
+    "build": "webpack --config config/webpack.config.js --mode=development",
+    "build-prod": "webpack --config config/webpack.config.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmrg/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Mauricio Reina",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "css-loader": "^5.2.7",
+    "file-loader": "^6.2.0",
+    "autoprefixer": "^10.3.1",
+    "postcss-loader": "^6.1.1",
+    "image-webpack-loader": "^7.0.1",
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2",
+    "granim": "^2.0.0"
+  },
+  "homepage": "https://github.com/jmrg/resume#readme"
+}
